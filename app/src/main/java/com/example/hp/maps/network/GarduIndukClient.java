@@ -13,6 +13,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class GarduIndukClient {
+
+//    private final String BASE_URL = "http://IP LU/nama_file.php";
     private final String BASE_URL = "http://192.168.0.107:3000";
     private Retrofit retrofit;
     private GarduIndukApi garduIndukApi;
